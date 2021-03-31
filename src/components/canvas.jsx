@@ -4,11 +4,14 @@ import BoxMesh from "./threeComponents/boxMesh";
 
 const ThreeCanvas = () => {
   return (
-    <StyledCanvas>
-      <ambientLight />
-      <pointLight position={[10, 10, 10]} />
-      <BoxMesh position={[0, 0, 0]} />
-    </StyledCanvas>
+    <>
+      {/* GUI Controls */}
+      <StyledCanvas>
+        <ambientLight />
+        <pointLight position={[10, 10, 10]} />
+        <BoxMesh position={[0, 0, 0]} />
+      </StyledCanvas>
+    </>
   );
 };
 
