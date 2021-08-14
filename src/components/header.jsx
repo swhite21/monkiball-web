@@ -2,7 +2,7 @@ import styled from "styled-components";
 const Header = () => {
   return (
     <Container>
-      <Title>React Three Fiber Starter</Title>
+      <Title>Monkiball</Title>
     </Container>
   );
 };
